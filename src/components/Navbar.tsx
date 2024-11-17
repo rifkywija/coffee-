@@ -20,6 +20,7 @@ const Navbar = () => {
               <title>Home</title>
               <title>About</title>
               <title>Contact</title>
+              <title>OurTeam</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
           </button>
@@ -32,12 +33,12 @@ const Navbar = () => {
                 Home
               </a>
             </Link>
-            <Link legacyBehavior href="/about" passHref>
+            <Link legacyBehavior href="/jumbotron" passHref>
               <a className="block mt-4 lg:inline-block lg:mt-0 text-amber-800 hover:text-white mr-4">
                 About
               </a>
             </Link>
-            <Link legacyBehavior href="/Service" passHref>
+            <Link legacyBehavior href="/service" passHref>
               <a className="block mt-4 lg:inline-block lg:mt-0 text-amber-800 hover:text-white mr-4">
                 Service
               </a>
@@ -45,6 +46,11 @@ const Navbar = () => {
             <Link legacyBehavior href="/contact" passHref>
               <a className="block mt-4 lg:inline-block lg:mt-0 text-amber-800 hover:text-white">
                 Contact
+              </a>
+            </Link>
+            <Link legacyBehavior href="/ourteam" passHref>
+              <a className="block mt-4 p-4 lg:inline-block lg:mt-0 text-amber-800 hover:text-white">
+                OurTeam
               </a>
             </Link>
           </div>
